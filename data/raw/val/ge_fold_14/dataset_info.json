@@ -1,0 +1,182 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "raw",
+  "dataset_name": "go_emotions",
+  "dataset_size": 56135222,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/google-research-datasets/go_emotions@add492243ff905527e67aeb8b80c082af02207c3/raw/train-00000-of-00001.parquet": {
+      "num_bytes": 24828322,
+      "checksum": null
+    }
+  },
+  "download_size": 24828322,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "author": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "subreddit": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "link_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "parent_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "created_utc": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "rater_id": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "example_very_unclear": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "admiration": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "amusement": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "anger": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "annoyance": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "approval": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "caring": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "confusion": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "curiosity": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "desire": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "disappointment": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "disapproval": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "disgust": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "embarrassment": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "excitement": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "fear": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "gratitude": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "grief": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "joy": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "love": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "nervousness": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "optimism": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "pride": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "realization": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "relief": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "remorse": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "sadness": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "surprise": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "neutral": {
+      "dtype": "int32",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 80963544,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 56135222,
+      "num_examples": 211225,
+      "dataset_name": "go_emotions"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
